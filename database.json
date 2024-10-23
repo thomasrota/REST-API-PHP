@@ -1,0 +1,114 @@
+{
+  "artisti": [
+    {
+      "id": 1,
+      "nome": "Michael",
+      "cognome": "Jackson",
+      "nomeDArte": "The King of Pop",
+      "dataDiNascita": "1958-08-29",
+      "descrizione": "Cantante, cantautore e ballerino americano, considerato una delle più grandi icone della musica pop.",
+      "album": [
+        { "id": 101 },
+        { "id": 102 }
+      ],
+      "tags": [
+        { "id": 1, "nome": "pop" },
+        { "id": 2, "nome": "R&B" }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Freddie",
+      "cognome": "Mercury",
+      "nomeDArte": "Freddie Mercury",
+      "dataDiNascita": "1946-09-05",
+      "descrizione": "Cantante e frontman dei Queen, noto per la sua potente voce e la presenza scenica.",
+      "album": [
+        { "id": 103 }
+      ],
+      "tags": [
+        { "id": 3, "nome": "rock" },
+        { "id": 4, "nome": "opera rock" }
+      ]
+    }
+  ],
+  "album": [
+    {
+      "id": 101,
+      "titolo": "Thriller",
+      "anno": 1982,
+      "artistaId": 1,
+      "single": false,
+      "canzoni": [
+        { "id": 201 },
+        { "id": 202 }
+      ]
+    },
+    {
+      "id": 102,
+      "titolo": "Bad",
+      "anno": 1987,
+      "artistaId": 1,
+      "single": false,
+      "canzoni": [
+        { "id": 203 },
+        { "id": 204 }
+      ]
+    },
+    {
+      "id": 103,
+      "titolo": "A Night at the Opera",
+      "anno": 1975,
+      "artistaId": 2,
+      "single": false,
+      "canzoni": [
+        { "id": 205 },
+        { "id": 206 }
+      ]
+    }
+  ],
+  "canzoni": [
+    {
+      "id": 201,
+      "titolo": "Thriller",
+      "durata": "05:57",
+      "genere": "pop",
+      "albumId": 101
+    },
+    {
+      "id": 202,
+      "titolo": "Beat It",
+      "durata": "04:18",
+      "genere": "rock",
+      "albumId": 101
+    },
+    {
+      "id": 203,
+      "titolo": "Bad",
+      "durata": "04:07",
+      "genere": "pop",
+      "albumId": 102
+    },
+    {
+      "id": 204,
+      "titolo": "Smooth Criminal",
+      "durata": "04:17",
+      "genere": "pop",
+      "albumId": 102
+    },
+    {
+      "id": 205,
+      "titolo": "Bohemian Rhapsody",
+      "durata": "05:55",
+      "genere": "rock",
+      "albumId": 103
+    },
+    {
+      "id": 206,
+      "titolo": "Love of My Life",
+      "durata": "03:39",
+      "genere": "rock",
+      "albumId": 103
+    }
+  ]
+}
